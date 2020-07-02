@@ -10,6 +10,10 @@ class App extends Component {
     employees
   };
 
+  // sortName = () => {
+  //   let table = 
+  // }
+
   render() {
     return (
       <>
@@ -17,9 +21,9 @@ class App extends Component {
         
         <div className="container">
         <Form />
-        <table class="table">
+        <table className="table" id="table">
         <thead>
-          <tr>
+          <tr className="header">
             <th scope="col">Name</th>
             <th scope="col">Department</th>
             <th scope="col">Phone Number</th>
