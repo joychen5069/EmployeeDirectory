@@ -1,15 +1,18 @@
 import React from 'react';
+import Employees from "./components/Employees"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Employee Directory
-        </p>
-            </header>
-    </div>
+    <Employees />
+    // <div className="App">
+    //   <header className="App-header">
+    //     <p>
+    //       Employee Directory
+    //     </p>
+    //         </header>
+    // </div>
+    
   );
 }
 
