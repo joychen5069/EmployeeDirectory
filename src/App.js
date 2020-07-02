@@ -14,7 +14,16 @@ class App extends Component {
     return (
       <>
         <Title>Employees</Title>
-        <div>
+        <div className="container">
+        <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Department</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Email</th>
+          </tr>
+        </thead>
           {this.state.employees.map(employee => {
             return (
               <Employee
@@ -27,6 +36,7 @@ class App extends Component {
               />
             )
           })}
+            </table>
         </div>
       </>
     );
