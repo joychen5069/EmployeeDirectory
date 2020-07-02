@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Title from "./components/Title"
 import Employee from "./components/Employees";
-// import Wrapper from "./components/Wrapper"
+import Form from "./components/Form"
 import './App.css';
 import employees from './employees.json';
 
@@ -14,7 +14,9 @@ class App extends Component {
     return (
       <>
         <Title>Employees</Title>
+        
         <div className="container">
+        <Form />
         <table class="table">
         <thead>
           <tr>
