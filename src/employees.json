@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": "David Zayas",
+      "phone": "(882) 578-4944",
+      "department": "Accounting/Finances",
+      "email": "david.zayas@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Jason Ralph",
+      "phone": "(882) 334-8622",
+      "department": "Legal Department",
+      "email": "jason.ralph@email.com"
+    },
+    {
+      "id": 3,
+      "name": "Rick Worthy",
+      "phone": "(882) 509-9144",
+      "department": "Human Resources",
+      "email": "rick.worthy@email.com"
+    },
+    {
+      "id": 4,
+      "name": "Astrid Smeplass",
+      "phone": "(882) 342-9519",
+      "department": "Engineering",
+      "email": "astrid.smeplass@email.com"
+    },
+    {
+      "id": 5,
+      "name": "Michael C. Hall",
+      "phone": "(882) 869-4193",
+      "department": "Human Resources",
+      "email": "michael.hall@email.com"
+    },
+    {
+      "id": 6,
+      "name": "Doug Funnie",
+      "phone": "(882) 963-8838",
+      "department": "Accounting/Finances",
+      "email": "doug.funnie@email.com"
+    },
+    {
+      "id": 7,
+      "name": "Alexa Davalos",
+      "phone": "((882) 582-5294",
+      "department": "Legal Department",
+      "email": "alexa.davalos@email.com"
+    },
+    {
+      "id": 8,
+      "name": "Sela Ward",
+      "phone": "(882) 476-8323",
+      "department": "Engineering",
+      "email": "sela.ward@email.com"
+    },
+    {
+      "id": 9,
+      "name": "Oscric Chau",
+      "phone": "(882) 826-2968",
+      "department": "Human Resources",
+      "email": "oscric.chau@email.com"
+    },
+    {
+      "id": 10,
+      "name": "Kim Rhodes",
+      "phone": "(882) 909-6655",
+      "department": "Information Technology",
+      "email": "kim.rhodes@email.com"
+    },
+    {
+      "id": 11,
+      "name": "Cote de Pablo",
+      "phone": "(882) 718-8814",
+      "department": "Engineering",
+      "email": "cote.depablo@email.com"
+    },
+    {
+      "id": 12,
+      "name": "Rocky Carroll",
+      "phone": "(882) 506-1577",
+      "department": "Accounting/Finances",
+      "email": "rocky.carroll@email.com"
+    }
+  ]
+  
