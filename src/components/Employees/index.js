@@ -5,8 +5,8 @@ function Employee(props) {
   return (
 
 
-    <div>
-      <h1>Test</h1>
+    <div class="container">
+      {/* <h1>Test</h1> */}
       <table class="table">
         <thead>
           <tr>
