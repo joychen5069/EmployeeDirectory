@@ -1,12 +1,8 @@
 import React from "react";
 import "./style.css";
 
-function Employee(props) {
+let Employee = props => {
   return (
-
-
-  
-      
         <tbody>
           <tr>
             <td>{props.name}</td>
@@ -14,8 +10,7 @@ function Employee(props) {
             <td>{props.phone}</td>
             <td>{props.email}</td>
           </tr>
-        </tbody>
-  
+        </tbody>  
   );
 }
 
