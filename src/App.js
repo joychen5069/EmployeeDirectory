@@ -5,36 +5,36 @@ import Form from "./components/Form"
 import './App.css';
 import orderBy from 'lodash/orderBy';
 import employees from './employees.json';
+import Wrapper from './components/Wrapper';
 
 class App extends Component {
   state = {
     employees,
-    filteredEmployees: employees,
+    sortedEmployees: employees,
     ascending: true
   };
 
+  //use lodash to create function to sort by name
   sortName = () => {
-
-    const { filteredEmployees, ascending } = this.state
-    console.log(filteredEmployees);
+    const { sortedEmployees, ascending } = this.state
+    console.log(sortedEmployees);
     console.log(ascending);
     const direction = ascending ? 'asc' : 'desc'
-    const sorted = orderBy(filteredEmployees, 'name', direction);
+    const sorted = orderBy(sortedEmployees, 'name', direction);
     console.log(sorted)
-    this.setState({ filteredEmployees: sorted, ascending: !ascending })
+    this.setState({ sortedEmployees: sorted, ascending: !ascending })
 
-
-    console.log("clicked")
-
+    console.log("clicked name to sort")
   }
 
 
   render() {
     return (
-      <>
+      <Wrapper>
+        <div className="container">
         <Title>Employee Directory</Title>
 
-        <div className="container">
+        
           <Form />
           <table className="table" id="table">
             <thead>
@@ -45,7 +45,7 @@ class App extends Component {
                 <th scope="col">Email</th>
               </tr>
             </thead>
-            {this.state.filteredEmployees.map(employee => {
+            {this.state.sortedEmployees.map(employee => {
               return (
                 <Employee
                   id={employee.id}
@@ -59,7 +59,7 @@ class App extends Component {
             })}
           </table>
         </div>
-      </>
+      </Wrapper>
     );
   }
 }

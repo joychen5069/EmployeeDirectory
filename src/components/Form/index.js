@@ -6,6 +6,7 @@ class Form extends Component {
         name: ""
     };
 
+    //filter the names while user is typing
     handleInputChange = event => {
         const { name, value } = event.target;
         //updating state
