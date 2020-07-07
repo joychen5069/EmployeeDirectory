@@ -7,7 +7,7 @@
   
 ## Description
   
-This application allows you to view your employees and their nonsensitive information. You can filter the employees by their names or you can sort them aphabetically by clicking on the Name header.
+This application allows you to view your employees and their nonsensitive information. You can filter the employees by their names or you can sort them aphabetically by clicking on the Name header. 
 If you want to see a deployed demo of the application, visit the live site at https://employee-directory-byjoy.netlify.app/
 
 <div align="center"><img src="public/assets/main.png" width="800" alt="main"></div>
@@ -37,7 +37,7 @@ After you've installed the packages, you can run the application by running the 
 
     npm run
 
-
+The names in the JSON file are strictly filler employees. To input your own employees, feel free to change the employee.json file to your company's employees.
 
 ## License
 [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0) 
