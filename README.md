@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Employee Directory by Joy Chen
 
-## Available Scripts
+[![React](https://img.shields.io/badge/Made%20With-React-orange.svg)](https://shields.io/)  
+[![JavScript](https://img.shields.io/badge/Made%20With-JavaScript-blue.svg)](https://shields.io/) 
 
-In the project directory, you can run:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d068fbf-dd30-4b5d-a714-88f5165e63f7/deploy-status)](https://app.netlify.com/sites/employee-directory-byjoy/deploys) 
+  
+## Description
+  
+This application allows you to view your employees and their nonsensitive information. You can filter the employees by their names or you can sort them aphabetically by clicking on the Name header.
+If you want to see a deployed demo of the application, visit the live site at https://employee-directory-byjoy.netlify.app/
 
-### `npm start`
+<div align="center"><img src="public/assets/main.png" width="800" alt="main"></div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## User Story
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+As a manager in the company, I want to view employees by their names, so that I can have an overview of all the employees or filter to find the employee I want to view
 
-### `npm test`
+  
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Demo](#demo)
+* [Questions](#questions)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
+## Installation
 
-### `npm run build`
+To use this application, run the following commands in your terminal to install the appropriate packages
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    npm install
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Usage 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After you've installed the packages, you can run the application by running the follow command in your terminal
 
-### `npm run eject`
+    npm run
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
+[![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0) 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Demo
+<div align="center"><img src="public/assets/demo.gif" width="800" alt="demo"></div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Questions
+  
+If you see any improvements that can be made, please email me at joychen5069@gmail.com. You can also visit my GitHub page at https://github.com/joychen5069 or visit the Employee Directory page at https://github.com/joychen5069/EmployeeDirectory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  
